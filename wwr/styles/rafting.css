@@ -1,0 +1,122 @@
+:root {
+    --primary-color: #B09E99;
+    --secondary-color: #64B6AC;
+    --accent1-color: #F7CCB5;
+    --accent2-color: #C0FDFB;
+}
+
+body {
+    background-color: transparent;
+    max-width: 80%;
+}
+
+.logo {
+    padding: 20px;
+    mix-blend-mode: multiply;
+    background-color: transparent;
+    align-items: center;
+}
+
+h1 {
+    color: var(--secondary-color);
+    font-family: Roboto;
+    text-align: center;
+    font-style: italic;
+    text-shadow: var(--primary-color);
+    font-size: 60px;
+    border: 1px solid var(--primary-color);
+    position: absolute;
+    left: 50px;
+    right: 50px;
+    bottom: 3900px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.adventure {
+    color: var(--accent1-color);
+    font-family: Roboto;
+    text-align: center;
+    font-weight: 10px;
+    font-style: italic;
+    text-shadow: 1px solid var(--primary-color);
+    font-size: 40px;
+
+}
+
+.history {
+    color: var(--accent2-color);
+    font-family: Roboto;
+    text-align: left;
+    font-weight: 10px;
+    font-style: bold;
+    font-size: 40px;
+    text-decoration: underline;
+
+}
+
+p {
+    color: #000;
+    font-family: Roboto;
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-style: bold;
+}
+
+
+.social-links {
+    text-decoration: none;
+    color: var(--accent2-color);
+    font-size: 50%;
+}
+
+.a :active {
+    text-decoration: none;
+    color: var(--secondary-color)
+}
+
+.menu :hover {
+    text-decoration: underline;
+    color: var(--accent1-color)
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.article {
+    position: absolute;
+}
+
+.artimg {
+    float: right;
+    bottom: 359px;
+    background-color: var(--accent2-color);
+    opacity: 20px;
+    max-width: 40%;
+    position: relative;
+    margin-right: 80px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+
+}
+
+.first-p {
+    float: right;
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 4000px;
+    top: 150px;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
