@@ -22,7 +22,6 @@ h1 {
     font-family: Roboto;
     text-align: center;
     font-style: italic;
-    text-shadow: var(--primary-color);
     font-size: 60px;
     border: 1px solid var(--primary-color);
     position: absolute;
@@ -37,9 +36,8 @@ h1 {
     color: var(--accent1-color);
     font-family: Roboto;
     text-align: center;
-    font-weight: 10px;
+    font-weight: 10;
     font-style: italic;
-    text-shadow: 1px solid var(--primary-color);
     font-size: 40px;
 
 }
@@ -48,8 +46,7 @@ h1 {
     color: var(--accent2-color);
     font-family: Roboto;
     text-align: left;
-    font-weight: 10px;
-    font-style: bold;
+    font-weight: bold;
     font-size: 40px;
     text-decoration: underline;
 
@@ -63,7 +60,7 @@ p {
 a {
     text-decoration: none;
     color: var(--secondary-color);
-    font-style: bold;
+    font-weight: bold;
 }
 
 
